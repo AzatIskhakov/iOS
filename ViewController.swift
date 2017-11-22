@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Calculator2
 //
-//  Created by Alex on 11/22/17.
+//  Created by Azat on 11/22/17.
 //  Copyright © 2017 Azat. All rights reserved.
 //
 
@@ -49,17 +49,12 @@ class ViewController: UIViewController {
                 Label.text = Label.text! + digit
             }
         }
-    /*
-        Label.text = firstDigit ? digit : Label.text! + digit
-        firstDigit = false
-    */
     }
     
     @IBAction func Cancel(_ sender: Any) {
         showValue = 0
     }
-    
-    
+     
     @IBAction func Calculate(_ sender: Any) {
         switch operation {
         case "+":
