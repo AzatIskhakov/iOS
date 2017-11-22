@@ -49,10 +49,6 @@ class ViewController: UIViewController {
                 Label.text = Label.text! + digit
             }
         }
-    /*
-        Label.text = firstDigit ? digit : Label.text! + digit
-        firstDigit = false
-    */
     }
     
     @IBAction func Cancel(_ sender: Any) {
